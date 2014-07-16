@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14171,7 +14171,7 @@ or BCAP0010</text>
 <wire x1="25.4" y1="-17.78" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-12.7" y="-35.56" size="1.778" layer="95"/>
 <pinref part="U2" gate="A" pin="P1.2/TA0.1"/>
-<wire x1="25.4" y1="-10.16" x2="30.48" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14510,11 +14510,9 @@ or BCAP0010</text>
 <label x="233.68" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="-12.7" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-17.78" x2="7.62" y2="-38.1" width="0.1524" layer="91"/>
-<label x="-12.7" y="-38.1" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="P1.3/TA0.2"/>
-<wire x1="27.94" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
+<label x="119.38" y="-20.32" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="P6.1/CB1"/>
+<wire x1="119.38" y1="-20.32" x2="116.84" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
