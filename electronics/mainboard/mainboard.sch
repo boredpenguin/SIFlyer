@@ -14139,11 +14139,9 @@ or BCAP0010</text>
 <label x="193.04" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="-5.08" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-15.24" x2="7.62" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-12.7" y="-30.48" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="P1.0/TA0CLK/ACLK"/>
-<wire x1="30.48" y1="-5.08" x2="20.32" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-22.86" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-12.7" y="-22.86" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="P1.7/TA1.0"/>
 </segment>
 </net>
 <net name="DRIVER_FAULT_2" class="0">
@@ -14153,11 +14151,9 @@ or BCAP0010</text>
 <label x="193.04" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-15.24" x2="7.62" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-12.7" y="-33.02" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="P1.1/TA0.0"/>
-<wire x1="30.48" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-22.86" x2="119.38" y2="-22.86" width="0.1524" layer="91"/>
+<label x="119.38" y="-22.86" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="P6.2/CB2"/>
 </segment>
 </net>
 <net name="DRIVER_FAULT_3" class="0">
@@ -14167,11 +14163,9 @@ or BCAP0010</text>
 <label x="193.04" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="-10.16" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-17.78" x2="7.62" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-12.7" y="-35.56" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="P1.2/TA0.1"/>
-<wire x1="30.48" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-12.7" y="-27.94" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="P2.0/TA1.1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14290,9 +14284,9 @@ or BCAP0010</text>
 <segment>
 <pinref part="U2" gate="A" pin="VCORE"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="12.7" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="2.54" x2="-10.16" y2="2.54" width="0.1524" layer="91"/>
